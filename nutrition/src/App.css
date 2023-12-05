@@ -1,0 +1,41 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background-color:rgb(32, 32, 32);
+}
+#foodBox{
+  display: flex;
+  font-size:10px;
+  width:120%;
+  align-items: center;
+  justify-content: space-around;
+  border:1px solid black;
+  margin-left:40px;
+  background-color:white;
+  border-radius:10px;
+}
+
+#foodBox img{
+  height: 100px;
+  width:130px;
+}
+h1{
+  margin-left:30px;
+}
+button{
+  border:1px solid black;
+  border-radius:5px;
+  margin-left:5px;
+  padding:2px 8px;
+}
+#food_search{
+  text-align: center;
+  padding:10px 20px;
+  display: block;
+  margin:30px 52%;
+}
+
+
